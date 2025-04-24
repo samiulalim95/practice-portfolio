@@ -1,0 +1,352 @@
+body{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+/* button styles */
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background: #F15B22;
+    color: #FFF;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-color: #FFF;
+}
+
+.btn-primary2{
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background: #FFF;
+    color: #F15B22;
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-color: #FFF;
+}
+/* header styles */
+header {
+    width: 1600px;
+    height: 808px;
+    flex-shrink: 0;
+    background: url('../images/banner/banner1.png');
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner{
+    padding: 216px 230px 364px 845px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content{
+    max-width: 500px;
+    text-align: right;
+    color: #151414;
+}
+
+.banner-title{
+    color: var(--Dark-01, #151414);
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    ;
+}
+
+.banner-description{
+    color: var(--Dark-02, #444343);
+    text-align: right;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+/* my failure styles */
+.failure{
+    background: #FFF;
+    display: flex;
+    margin: 130px 206px;
+}
+
+.failure-heading{
+    width: 288px;
+    color: var(--Dark-01, #151414);
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.failure-details{
+    margin-top: 180px;
+    margin-left: 50px;
+}
+.failure-description{
+    width: 416px;
+    color: var(--Dark-02, #444343);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+
+ul{
+    color: var(--Dark-02, #444343);
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    list-style: none;
+    padding-left: 0;
+    margin-left: 0;
+}
+
+li::before{
+    content: '\2713';
+    color: rgb(10, 156, 10);
+    font-size: 20px;
+    margin-right: 10px;
+
+}
+
+.lady-img-ellipse{
+    margin-top: 140px;
+    position: relative;
+}
+
+.lady-img{
+    width: 451px;
+    height: 898px;
+    flex-shrink: 0;
+    position: absolute;
+    top: -197.5px;
+    left: -22.5px;
+}
+
+.circle-bg{
+    width: 527.929px;
+    height: 527.929px;
+    flex-shrink: 0;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+}
+
+/* My plan section */
+
+.my-plans{
+    margin: 50px 230px;
+    justify-content: space-around;
+    width: 1141px;
+    height: 299.958px;
+    flex-shrink: 0;
+}
+
+.my-plan-heading{
+    color: var(--Dark-01, #151414);
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+.my-plan-list{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.my-plan{    
+    padding-right: 50px;
+}
+
+.plan-title{
+    color: var(--Dark-01, #151414);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 5px;
+}
+
+.plan-description{
+    color: var(--Dark-03, #737272);
+    text-align: center;
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 5px;
+}
+
+/* keep positive Style */
+
+.keep-positive {
+    position: relative;
+    width: 1140px;
+    height: 300px;
+    margin: 50px 230px;
+    border-radius: 8px;
+    background-image: url("../images/watch.png");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.keep-positive::before{
+    content: '';    /* This is used only with pseudo-elements like ::before and ::after. */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: linear-gradient(90deg, rgba(241, 91, 34, 0.8) 0%, rgba(241, 91, 34, 0) 100%);
+}
+
+/* 
+Tried to combine the image and gradient in the same background property.
+But CSS doesn't blend images + gradients well that way — the gradient got overwritten or didn't layer properly.
+
+What worked:
+Separated the gradient overlay using a ::before pseudo-element and kept the image as the background-image.
+This way:
+
+Image stays in the background.
+Gradient sits on top (semi-transparent).
+Text stays above both using position: relative.
+It’s all about layering:
+background image → gradient overlay → text.
+*/
+
+.stay-positive-content{
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-right: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.stay-positive-heading{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 15px;
+    margin-left: 2px;
+}
+
+/* Why it works:
+z-index controls layer order (higher = on top).
+
+position: relative or absolute is needed to apply z-index.
+
+So now:
+watch background (default) → gradient (z-index: 0) → text (z-index: 1) */
+
+/* footer styles */
+
+footer{
+    background: var(--Dark-01, #151414);
+    width: 1600px;
+    height: 577px;
+    flex-shrink: 0;
+    display: flex;
+}
+
+.footer-column{
+    margin: 130px 190px;
+}
+
+.footer-title{
+    color: #F8F8F8;
+    font-family: "Work Sans";
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
+.footer-description{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 5px;
+    margin-right: 10px;
+}
+
+.social-links{
+    width: 175px;
+    height: 46px;
+    flex-shrink: 0;
+    margin-top: 32px;
+}
+
+.social-links a{
+    margin-right: 8px;
+}
+
+.footer-title-2{
+    color: #FFF;
+    font-family: "Work Sans";
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.email input[type="email"]{
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    background: var(--Dark-01, #151414);
+    color: var(--Dark-07, #F3F3F3);
+    font-family: "Work Sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 16px;
+    padding-left: 21px;
+
+
+}
+ 
